@@ -25,3 +25,17 @@ print(sub)
 
 parts = "idade,peso,altura".split(",")
 print(parts)
+
+# Operadores lógicos
+comp = 4 < 5 and 9 > 10
+print(comp)
+comp = 4 < 5 or 9 > 10
+print(comp)
+comp = 4 < 5 and not (9 > 10)
+print(comp)
+
+# commando print
+x = 3
+y = 4
+print(x, "elevado a", y, "é", x**y)
+print(str(x) + " elevado a " + str(y) + " é " + str(x**y))
